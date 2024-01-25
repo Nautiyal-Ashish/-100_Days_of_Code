@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background: #D0D5FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards {
+    background: #4491d4;
+    width: 46em;
+    height: 46em;
+    border-radius: 10%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 59px;
+}
+
+h2 {
+    font-size: 34px;
+    align-items: start;
+    margin-top: 30px;
+}
+
+#input {
+    padding: 10px 20px;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+#submit {
+    font-size: 22px;
+    padding: 20px 30px;
+    border-radius: 50px;
+    border-style: none;
+    color: #000;
+    background-color: white;
+}
