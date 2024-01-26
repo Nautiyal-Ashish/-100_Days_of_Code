@@ -13,18 +13,32 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="cards">
+    <div class="card">
+        <header>
             <h1>Age Calculator</h1>
-            <div class="result"></div>
-            <h2><span id="currDate">0</span> Years</h2>
-            <h2><span>0</span> Months</h2>
-            <h2><span>0</span> Days</h2>
-            <input type="date" id="input">
-            <button id="submit">Submit</button>
-        </div>
-    </div>
+        </header>
 
+        <div class="first-div">
+            <label>Enter Your Date of Birth</label>
+            <input id="inputDob" type="date" value="2000-01-01" />
+        </div>
+
+        <div class="second-div">
+            <label>Current Date</label>
+            <input id="cdate" type="date" value="" />
+        </div>
+
+        <button type="button" onclick="getDOB()">
+            Calculate
+        </button>
+        <br />
+        <div id="currentAge"></div>
+        <script src="script.js"></script>
+
+        <!-- <div class="result">
+            <p>Your Current Age is 0 years 0 months 0 days </p>
+        </div> -->
+    </div>
 </body>
 
 </html>
